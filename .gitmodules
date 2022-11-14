@@ -1,0 +1,4 @@
+[submodule "AutoVmHostName"]
+  path = AutoVmHostName
+  url = https://github.com/igor-sadza/ScriptsBundle.git
+  branch = AutoVmHostName
