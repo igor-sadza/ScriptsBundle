@@ -1,0 +1,11 @@
+[Unit]
+Description=
+
+[Service]
+User=root
+WorkingDirectory=/root/bin
+ExecStart=/bin/bash -c /root/ScriptsBundle/AutoVmHostName/eutoVmHostName.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
