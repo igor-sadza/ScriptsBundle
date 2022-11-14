@@ -4,7 +4,7 @@ Description=
 [Service]
 User=root
 WorkingDirectory=/root/bin
-ExecStart=/bin/bash -c /root/ScriptsBundle/AutoVmHostName/eutoVmHostName.sh
+ExecStart=/bin/bash -c /root/ScriptsBundle/AutoVmHostName/AutoVmHostName.sh
 Restart=always
 
 [Install]
