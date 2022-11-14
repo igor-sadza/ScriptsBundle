@@ -1,10 +1,8 @@
 #!/bin/bash
 
-# vmHostName.sh 
+# DESCRIPTION:
 # Use vm ID as: ip address / hostname / bridge number.
 # ID 10010 -> IP 1.0.0.10 -> HOSTNAME 1-0-0-10 -> BRIDGE vmbr[1]
-# Copyright (C) 2022 Igor Sadza
-# Last revised 28/04/2022
 
 while true;
 do
