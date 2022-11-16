@@ -47,7 +47,7 @@ while true; do
           then
             sed -i -e "/$mVmHostname/d" /etc/dnsmasq.conf
             var="dhcp-host=$mVmMacAddress,$mVmHostname,$mVmIpAddress"
-            sed -i -e "/HOSTS/a $var" /etc/dnsmasq.conf
+            sed -i -e "1i\ $var" /etc/dnsmasq.conf
             systemctl restart dnsmasq.service
           fi
     fi
